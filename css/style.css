@@ -1,0 +1,59 @@
+body {
+    background-color: #F1F2F4;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body a {
+    text-decoration: none !important;
+    color: snow !important;
+    font-family: "bebas-neue", sans-serif;
+}
+.txt-left {
+    text-align: left;
+}
+.txt-center {
+    text-align: center;
+}
+.txt-right {
+    text-align: right;
+}
+.txt-s
+nav a, 
+.btn-primary,
+.btn-secondary{
+font-family: "bebas-neue", sans-serif;
+font-style: normal;
+font-weight: 400;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+        TABLE OF CONTENTS
+    -- -- -- -- -- -- -- -- --
+⥉⥉   Body, Font, & TXT Sets
+↡↡   ---
+
+=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.top-bar, .footer-bottom {
+    background-color: #0E0E0E;
+}
+
+
+
+nav ul { list-style: none; }
+nav li {
+    display: inline;
+    background-color: #151E2D;
+    padding-left: 15px; padding-right: 15px;
+    padding-top: 12px; padding-bottom: 12px;
+    border-radius: 3px;
+}
+
+.hero img {
+    margin-left: auto; margin-right: auto;
+}
+
+
+
+
+
+
