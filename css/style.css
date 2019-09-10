@@ -1,11 +1,14 @@
 body {
-    background-color: #F1F2F4;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 15px;
+    background: rgb(243,243,246);
+    background: -moz-linear-gradient(0deg, rgba(243,243,246,1) 0%, rgba(243,243,245,1) 10%, rgba(243,243,244,1) 20%, rgba(243,243,243,1) 30%, rgba(243,243,242,1) 40%, rgba(243,243,241,1) 50%, rgba(243,243,245,1) 60%);
+    background: -webkit-linear-gradient(0deg, rgba(243,243,246,1) 0%, rgba(243,243,245,1) 10%, rgba(243,243,244,1) 20%, rgba(243,243,243,1) 30%, rgba(243,243,242,1) 40%, rgba(243,243,241,1) 50%, rgba(243,243,245,1) 60%);
+    background: linear-gradient(0deg, rgba(243,243,246,1) 0%, rgba(243,243,245,1) 10%, rgba(243,243,244,1) 20%, rgba(243,243,243,1) 30%, rgba(243,243,242,1) 40%, rgba(243,243,241,1) 50%, rgba(243,243,245,1) 60%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f3f3f6",endColorstr="#f3f3f5",GradientType=1);
 }
 body a {
     text-decoration: none !important;
-    color: snow !important;
-    font-family: "bebas-neue", sans-serif;
+    color: snow;
 }
 .txt-left {
     text-align: left;
@@ -20,7 +23,7 @@ body a {
 nav a, 
 .btn-primary,
 .btn-secondary{
-font-family: "bebas-neue", sans-serif;
+font-family: "bebas-neue", sans-serif !important;
 font-style: normal;
 font-weight: 400;
 }
@@ -33,25 +36,29 @@ font-weight: 400;
 
 =-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
-.top-bar, .footer-bottom {
-    background-color: #0E0E0E;
+.top-bar, .top-bar a, .footer-bottom {
+    background-color: #0E0E0E; color: slategray;
+    font-family: Tahoma, Geneva, sans-serif; font-size: .8em;
 }
-
-
-
 nav ul { list-style: none; }
 nav li {
     display: inline;
     background-color: #151E2D;
+    font-family: "bebas-neue", sans-serif;
     padding-left: 15px; padding-right: 15px;
     padding-top: 12px; padding-bottom: 12px;
     border-radius: 3px;
 }
 
 .hero img {
-    margin-left: auto; margin-right: auto;
+    width: 960px; border-radius: 5px;
 }
 
+
+.footer-bottom {
+    min-height: 75px;
+    bottom: 0;
+}
 
 
 
